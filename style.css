@@ -1,0 +1,38 @@
+*{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.orange-color{
+    color: orangered;
+}
+.container{
+    display: flex;
+}
+.container-img{
+    background-image: url(images/shapes/Group\ 8447.png);
+    background-size: cover;
+}
+.container-img img{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 90%;
+}
+h1{
+    font-size: 50px;
+    color: gray;
+}
+p{
+    color: gray;
+}
+.container-para{
+    margin: 80px;
+}
+.btn-order{
+    padding: 20px 40px;
+    border-radius: 35px;
+    background-image: linear-gradient(to right, coral,tomato);
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    
+}
