@@ -1,5 +1,5 @@
 *{
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .orange-color{
     color: orangered;
@@ -18,17 +18,18 @@
     margin-top: 150px;
     margin-left: 100px;
 }
-h1{
-    font-size: 50px;
-    color: gray;
-}
-p{
-    color: gray;
-}
 .container-para{
     margin: 80px;
     width: 50%;
 }
+.container-para h1{
+    font-size: 50px;
+    color: gray;
+}
+.container-para p{
+    color: gray;
+}
+
 .btn{
     padding: 18px 40px;
     border-radius: 35px;
@@ -63,3 +64,61 @@ p{
 .container-para2 h1{
     font-size: 35px;
 }
+
+.recipe{
+    text-align: center;
+}
+
+.recipe h1{
+    color: gray;
+    font-size: 32px;
+}
+.recipe  p{
+font-size: 14px;
+color: gray;
+}
+.container3{
+    display: flex;
+    margin: 60px;
+
+}
+.recipe-book{
+    box-shadow: 1px 1px 5px gray;
+    padding: 30px;
+    border-radius: 5%;
+    margin-left: 20px;
+}
+.recipe-book img{
+    width:500px;
+    height: 300px;
+}
+
+.container4{
+    display: flex;
+    justify-content: space-evenly;
+box-shadow: 1px 1px 5px gray;
+margin: 75px;
+border-radius: 15px;
+
+
+}
+.divider h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    
+
+}
+.gray{
+    color: gray;
+}
+footer p{
+    color: grey;
+
+}
+
